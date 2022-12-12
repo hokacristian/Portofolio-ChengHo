@@ -1,0 +1,41 @@
+            <section>
+                <div class="margin-top">
+                    <div class="card">
+                        <div class="content">
+                            <div class="card-text">
+                                <div class="card-image">
+                                    <img src="img/p1.png" alt="" srcset="">
+                                </div>
+                                <h4>Geovani Prihanda Mahkdagasta</h4>
+                                <ul>
+                                    <li>Lahir : Bengkulu, 09 Maret 2003</li>
+                                    <li>Nim : 1101213102</li>
+                                    <li>Jurusan : S1 Teknik Telekomunikasi</li>
+                                    <li>Hobby : Olahraga</li>
+                                    <li>Cita-cita : Engine Survaior</li>
+                                </ul>
+                            </div>
+                                <a class="button" href="https://instagram.com/mahkda.gasta09?igshid=YmMyMTA2M2Y=" target="_blank">
+                                <div class="icon">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                                <span>Instagram</span>
+                                </a>
+                                
+                            <div>
+                                <a class="button" href="https://github.com/Mahkdagasta9" target="_blank">
+                                <div class="icon">
+                                    <i class="fa-brands fa-github"></i>
+                                </div>
+                                <span>Github</span>
+                                </a>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+        
+                    </div>
+        
+                </div>
+                
+            </section>

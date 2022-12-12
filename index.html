@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/77fa727d74.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <title>Portofolio Kelompok Cheng Ho</title>
+    <link rel="icon" type="image/png" sizes="16*16" href="img/aa.png">
+    <style>
+        body{
+            background-color: rgb(185, 215, 234);
+        }
+
+        .footer{
+            background-color: #769FCD;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar" style="background-color: rgb(118, 159, 205);">
+        <div class="container-fluid">
+            <div class="running-text"><h1><span class="auto-input"></span></h1></div>
+          <form class="d-flex" role="search">
+            <div class="container-fluid">
+                <button onclick="buttonalert()">About Us</button>
+            </div>
+          </form>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-4" style="overflow-y: scroll;">
+            <div id="list-example" class="list-group">
+                <a class="list-group-item list-group-item-action" href="#list-item-1">Hoka Cristian Son</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">Muhammad Tsabit</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">Geovani Prihanda Mahkdagasta</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-4">Dennytan Raharjo</a>
+            </div>
+            <div class="weather-popup">
+                <div class="data-weather">
+                    <h2 class="city">Cuaca di --</h2>
+                    <div class="icon-desc">
+                        <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon-weather">
+                        <div class="desc">--</div>
+                    </div>
+                    <div class="temp">--°C</div>
+                    <div class="humidity">Kelembaban: --%</div>
+                    <div class="wind">Kecepatan angin: -- km/h</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-8">
+          <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <h4 class="col-3" id="list-item-1" style="background-color: #D6E6F2;text-align: center;">Hoka Cristian Son</h4>
+            <p>
+                <div class="card-text">
+                    <div class="card-image">
+                        <img class="col-3" src="img/p2.jpg" alt="" srcset="">
+                    </div>
+                    <ul>
+                        <li>Lahir : Tangerang, 08 Maret 2003</li>
+                        <li>Nim : 1101213034</li>
+                        <li>Jurusan : S1 Teknik Telekomunikasi</li>
+                        <li>Hobby : Sepeda</li>
+                        <li>Cita-cita : Superman</li>
+                    </ul>
+                </div>
+            </p>
+            <h4 class="col-3" id="list-item-2" style="background-color: #D6E6F2;text-align: center;">Muhammad Tsabit</h4>
+            <p>
+                <div class="card-text">
+                    <div class="card-image">
+                        <img class="col-3" style="justify-content: center;" src="img/WhatsApp Image 2022-12-12 at 21.37.35.jpeg" alt="" srcset="">
+                    </div>
+                    <ul>
+                        <li>Lahir : Depok, 18 Januari 2003</li>
+                        <li>Nim : 1101213103</li>
+                        <li>Jurusan : S1 Teknik Telekomunikkasi</li>
+                        <li>Hobby : Basket</li>
+                        <li>Cita-cita : Engineer</li>
+                    </ul>
+                </div>
+            </p>
+            <h4 class="col-3" id="list-item-3" style="background-color: #D6E6F2;text-align: center;">Geovani Prihanda Mahkdagasta</h4>
+            <p>
+                <div class="card-text">
+                    <div class="card-image">
+                        <img class="col-3" src="img/p1.png" alt="" srcset="">
+                    </div>
+                    <ul>
+                        <li>Lahir : Bengkulu, 09 Maret 2003</li>
+                        <li>Nim : 1101213102</li>
+                        <li>Jurusan : S1 Teknik Telekomunikasi</li>
+                        <li>Hobby : Olahraga</li>
+                        <li>Cita-cita : Engine Survaior</li>
+                    </ul>
+                </div>
+            </p>
+            <h4 class="col-3" id="list-item-4" style="background-color: #D6E6F2;text-align: center;">Dennytan Raharjo</h4>
+            <p>
+                <div class="card-text">
+                    <div class="card-image">
+                        <img class="col-3" src="img/20046.jpg" alt="" srcset="">
+                    </div>
+                    <ul>
+                        <li>Lahir : Tangerang, 31 Desember 2003</li>
+                        <li>Nim : 1104223013</li>
+                        <li>Jurusan : S1 Teknik Fisika</li>
+                        <li>Hobby : Badminton</li>
+                        <li>Cita-cita : Engineer</li>
+                    </ul>
+                </div>
+            </p>
+          </div>
+        </div>
+      </div>
+    <footer class="footer">
+        <a class="fontfotter" href="https://lms.cpsrg.org/" style="color: black;"><h3>CYBER PHYSICAL SYSTEM</h3></a>
+    </footer>
+    <script>
+        let typed = new Typed(".auto-input",{
+        strings: ["Kelompok Cheng Ho"],
+        typeSpeed: 150,
+        backSpeed: 50,
+        loop: true
+    })
+    </script>
+    <!-- Light mode stylesheet -->
+<link rel="stylesheet" href="light-mode.css" media="prefers-color-scheme: light">
+
+<!-- Dark mode stylesheet -->
+<link rel="stylesheet" href="dark-mode.css" media="prefers-color-scheme: dark">
+<script src="script.js"></script>
+</body>
+</html>
